@@ -13,6 +13,9 @@ contract Token is ERC721Token, Ownable {
     { 
         metadata = _metadata;
     }
+    function mint(address recepient) public onlyOwner {
+        _mint(recepient, totalSupply() + 1);
+    }
     function updateMetadata(address _metadata) public onlyOwner {
         metadata = _metadata;
     }
