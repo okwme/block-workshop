@@ -1,16 +1,35 @@
 exports.handler = function(event, context, callback) {
   const tokenId = event.queryStringParameters.tokenId
   const metadata =  {
-    "name": "Token #" + tokenId,
-    "external_url": "https://block-workshop.netlify.com/", 
+
+    // both opensea and rarebits
+    "name": "Token #" + tokenId, 
     "description": "This is a very basic NFT with token Id #" + tokenId,
-    "image": "https://dummyimage.com/600x400/000000/fff/&text=token%20" + tokenId,
-    "attributes": [
+      
+    // opensea
+    "external_url": "https://block-workshop.netlify.com/",
+    // rarebits
+    "home_url": "https://block-workshop.netlify.com/", 
+
+    // opensea
+    "image": "https://dummyimage.com/600x400/000/fff/&text=token%20" + tokenId, 
+    // rarebits
+    "image_url": "https://dummyimage.com/600x400/000/fff/&text=token%20" + tokenId, 
+
+    // opensea
+    "attributes": [ 
       {
         "trait_type": "zodiac", 
         "value": returnZodiac(tokenId)
       }
-    ]
+    ],
+    // rarebits
+    "properties": [ 
+      {"key": "zodiac", "value": returnZodiac(tokenId), type: "string"}, 
+    ],
+
+    // rarebits
+    "tags": ["cool","hot","mild"]
   } 
   callback(null, {
     statusCode: 200,
