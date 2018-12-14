@@ -9,7 +9,7 @@ contract Metadata {
     using strings for *;
 
     function tokenURI(uint _tokenId) public view returns (string _infoUrl) {
-        string memory base = "https://domain.com/metadata/";
+        string memory base = "https://block-workshop.netlify.com/metadata/";
         string memory id = uint2str(_tokenId);
         return base.toSlice().concat(id.toSlice());
     }
