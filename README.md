@@ -1,42 +1,42 @@
-## Truffle Shavings
+### Workshop
 
-![](https://github.com/okwme/truffle-shavings/blob/master/box-img-lg.png?raw=true)
-### Truffle Boilerplate with solium, linguist, zeppelin, migrations, tests &tc
+------
 
-## Install
-```
-git clone git@github.com:okwme/truffle-shavings.git
-cd truffle shavings
-yarn
+#### Welcome
 
-or 
+- I'm **Billy Rennekamp**, I'm an artist and a developer working part time for a couple big projects like **Cosmos Network**, the creators of Tendermint and the Internet of Blockchains, **Gnosis**, a prediction market platform and creators of the Gnosis Safe and the DutchX decentralized exchange software. I also build on a couple smaller projects like **Clovers Network**, a game for generating rare art, **MemeLordz**, a curation market of memes (/r/MemeEconomy on the blockchain), **ENS Nifty**, a service for wrapping ENS domain names in NFTs so they can be sold on marketplaces like opensea and **Doneth** a shared wallet for open source projects.
 
-npx truffle unbox okwme/truffle-shavings
 
-// then create a .env file that looks like this:
+The point of this workshop is to show how to deploy an NFT using a technique that makes it easy to update the `tokenURI` endpoint which returns information about token metadata. This will keep your token flexible as infrastructure changes so quickly.
 
-TRUFFLE_MNEMONIC=candy maple cake sugar pudding cream honey rich smooth crumble sweet treat
-GANACHE_MNEMONIC=grid voyage cream cry fence load stove sort grief fuel room save
-TESTNET_MNEMONIC=a twelve word mnemonic phrase that works with some test network buddy
-INFURA_API_KEY=yOUrInfURaKEy
+The second part of this workshop will help you create a serverless solution for serving that metadata. This is a widely used web2 infrastructure solution that is cheap and scaleable. It is not decentralized. This is a solution for using the internet as it exists today. When better infrastructure is available for web3, you can replace this metadata solution for another, and update your token accordingly : )
 
-```
+#### Outline
 
-## Run
-```
-yarn lint:watch
-```
+1. ##### Part 1
 
-## Test
-```
-truffle develop
-yarn test
-```
+   1. [Setup Environment](tutorial/1-1.md)
+   2. [Make ERC-721](tutorial/1-1.md)
+   3. [Make Metadata](tutorial/1-1.md)
+   4. [Add Metadata to ERC-721](tutorial/1-1.md)
+   5. [Create Migrations](tutorial/1-1.md)
+   6. [Make Tests](tutorial/1-1.md)
+   7. [Make Migration for Updates](tutorial/1-1.md)
+   8. [Update ERC-721 and Tests](tutorial/1-1.md)
+   9. [Deploy](tutorial/1-1.md)
+   10. [Verify Contracts on Etherescan](tutorial/1-1.md)
 
-## Deploy
-```
-truffle develop
-yarn deploy --network develop
+2. ##### Part 2
 
-// this just runs truffle migrate --reset --compile-all
-```
+   1. [Make new netlify project](tutorial/1-1.md)
+   2. [Install netlify lambda](tutorial/1-1.md)
+   3. [Add helloworld function](tutorial/1-1.md)
+   4. [Add metadata](tutorial/1-1.md)
+   5. [Add proxy](tutorial/1-1.md)
+   6. [Add opensea](tutorial/1-1.md)
+   7. [Add rarebits](tutorial/1-1.md)
+   8. [Re-deploy and mint a token](tutorial/1-1.md)
+
+-----
+
+[Go to first step](tutorial/1-1.md)
