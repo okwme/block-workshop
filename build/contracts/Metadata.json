@@ -24,7 +24,7 @@
   "bytecode": "0x608060405234801561001057600080fd5b506103f8806100206000396000f300608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063c87b56dd14610046575b600080fd5b34801561005257600080fd5b50610071600480360381019080803590602001909291905050506100ec565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60608060606040805190810160405280601c81526020017f68747470733a2f2f646f6d61696e2e636f6d2f6d657461646174612f00000000815250915061013284610160565b9050610157610140826102b7565b610149846102b7565b6102e590919063ffffffff16565b92505050919050565b606060008060606000808614156101ae576040805190810160405280600181526020017f300000000000000000000000000000000000000000000000000000000000000081525094506102ae565b8593505b6000841415156101d8578280600101935050600a848115156101d057fe5b0493506101b2565b826040519080825280601f01601f19166020018201604052801561020b5781602001602082028038833980820191505090505b5091506001830390505b6000861415156102aa57600a8681151561022b57fe5b066030017f01000000000000000000000000000000000000000000000000000000000000000282828060019003935081518110151561026657fe5b9060200101907effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916908160001a905350600a868115156102a257fe5b049550610215565b8194505b50505050919050565b6102bf6103b2565b600060208301905060408051908101604052808451815260200182815250915050919050565b606080600083600001518560000151016040519080825280601f01601f1916602001820160405280156103275781602001602082028038833980820191505090505b5091506020820190506103438186602001518760000151610367565b61035c8560000151820185602001518660000151610367565b819250505092915050565b60005b60208210151561038f578251845260208401935060208301925060208203915061036a565b6001826020036101000a0390508019835116818551168181178652505050505050565b6040805190810160405280600081526020016000815250905600a165627a7a72305820fee654d32039013a14ebd6f7a556c08b9997938f8de77044284e5415c57dbf490029",
   "deployedBytecode": "0x608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063c87b56dd14610046575b600080fd5b34801561005257600080fd5b50610071600480360381019080803590602001909291905050506100ec565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60608060606040805190810160405280601c81526020017f68747470733a2f2f646f6d61696e2e636f6d2f6d657461646174612f00000000815250915061013284610160565b9050610157610140826102b7565b610149846102b7565b6102e590919063ffffffff16565b92505050919050565b606060008060606000808614156101ae576040805190810160405280600181526020017f300000000000000000000000000000000000000000000000000000000000000081525094506102ae565b8593505b6000841415156101d8578280600101935050600a848115156101d057fe5b0493506101b2565b826040519080825280601f01601f19166020018201604052801561020b5781602001602082028038833980820191505090505b5091506001830390505b6000861415156102aa57600a8681151561022b57fe5b066030017f01000000000000000000000000000000000000000000000000000000000000000282828060019003935081518110151561026657fe5b9060200101907effffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff1916908160001a905350600a868115156102a257fe5b049550610215565b8194505b50505050919050565b6102bf6103b2565b600060208301905060408051908101604052808451815260200182815250915050919050565b606080600083600001518560000151016040519080825280601f01601f1916602001820160405280156103275781602001602082028038833980820191505090505b5091506020820190506103438186602001518760000151610367565b61035c8560000151820185602001518660000151610367565b819250505092915050565b60005b60208210151561038f578251845260208401935060208301925060208203915061036a565b6001826020036101000a0390508019835116818551168181178652505050505050565b6040805190810160405280600081526020016000815250905600a165627a7a72305820fee654d32039013a14ebd6f7a556c08b9997938f8de77044284e5415c57dbf490029",
   "sourceMap": "134:711:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;134:711:0;;;;;;;",
-  "deployedSourceMap": "134:711:0:-;;;;;;;;;;;;;;;;;;;;;;;;184:238;;8:9:-1;5:2;;;30:1;27;20:12;5:2;184:238:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;184:238:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;238:15;265:18;326:16;265:51;;;;;;;;;;;;;;;;;;;;345:18;354:8;345;:18::i;:::-;326:37;;380:35;402:12;:2;:10;:12::i;:::-;380:14;:4;:12;:14::i;:::-;:21;;:35;;;;:::i;:::-;373:42;;184:238;;;;;:::o;427:416::-;476:6;525;545:11;643:17;690:6;502:1;497;:6;493:22;;;505:10;;;;;;;;;;;;;;;;;;;;;;493:22;534:1;525:10;;566:68;578:1;573;:6;;566:68;;;594:8;;;;;;;621:2;616:7;;;;;;;;;;;566:68;;;673:6;663:17;;;;;;;;;;;;;;;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;663:17:0;;;;643:37;;708:1;699:6;:10;690:19;;719:89;731:1;726;:6;;719:89;;;773:2;769:1;:6;;;;;;;;764:2;:11;759:17;;747:4;752:3;;;;;;;747:9;;;;;;;;;;;;;;:29;;;;;;;;;;;795:2;790:7;;;;;;;;;;;719:89;;;831:4;817:19;;427:416;;;;;;;;:::o;974:205:1:-;1029:5;;:::i;:::-;1053:8;1111:4;1105;1101:15;1094:22;;1142:30;;;;;;;;;1154:4;1148:18;1142:30;;;;1168:3;1142:30;;;1135:37;;974:205;;;;:::o;1466:340::-;1539:6;1564:7;1618:11;1597:5;:10;;;1585:4;:9;;;:22;1574:34;;;;;;;;;;;;;;;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;1574:34:1;;;;1564:44;;1669:2;1664:3;1660:12;1650:22;;1683:36;1690:6;1698:4;:9;;;1709:4;:9;;;1683:6;:36::i;:::-;1729:50;1745:4;:9;;;1736:6;:18;1756:5;:10;;;1768:5;:10;;;1729:6;:50::i;:::-;1796:3;1789:10;;1466:340;;;;;;:::o;231:543::-;552:9;346:164;359:2;352:3;:9;;346:164;;;434:3;428:10;422:4;415:24;474:2;466:10;;;;497:2;490:9;;;;370:2;363:9;;;;346:164;;;584:1;577:3;572:2;:8;564:3;:17;:21;552:33;;653:4;649:9;643:3;637:10;633:26;705:4;698;692:11;688:22;749:7;739:8;736:21;730:4;723:35;604:164;;;;;;:::o;134:711:0:-;;;;;;;;;;;;;;;;;;;;:::o",
+  "deployedSourceMap": "134:711:0:-;;;;;;;;;;;;;;;;;;;;;;;;184:238;;8:9:-1;5:2;;;30:1;27;20:12;5:2;184:238:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;184:238:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;238:15;265:18;326:16;265:51;;;;;;;;;;;;;;;;;;;;345:18;354:8;345;:18::i;:::-;326:37;;380:35;402:12;:2;:10;:12::i;:::-;380:14;:4;:12;:14::i;:::-;:21;;:35;;;;:::i;:::-;373:42;;184:238;;;;;:::o;427:416::-;476:6;525;545:11;643:17;690:6;502:1;497;:6;493:22;;;505:10;;;;;;;;;;;;;;;;;;;;;;493:22;534:1;525:10;;566:68;578:1;573;:6;;566:68;;;594:8;;;;;;;621:2;616:7;;;;;;;;;;;566:68;;;673:6;663:17;;;;;;;;;;;;;;;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;663:17:0;;;;643:37;;708:1;699:6;:10;690:19;;719:89;731:1;726;:6;;719:89;;;773:2;769:1;:6;;;;;;;;764:2;:11;759:17;;747:4;752:3;;;;;;;747:9;;;;;;;;;;;;;;:29;;;;;;;;;;;795:2;790:7;;;;;;;;;;;719:89;;;831:4;817:19;;427:416;;;;;;;;:::o;974:205:2:-;1029:5;;:::i;:::-;1053:8;1111:4;1105;1101:15;1094:22;;1142:30;;;;;;;;;1154:4;1148:18;1142:30;;;;1168:3;1142:30;;;1135:37;;974:205;;;;:::o;1466:340::-;1539:6;1564:7;1618:11;1597:5;:10;;;1585:4;:9;;;:22;1574:34;;;;;;;;;;;;;;;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;1574:34:2;;;;1564:44;;1669:2;1664:3;1660:12;1650:22;;1683:36;1690:6;1698:4;:9;;;1709:4;:9;;;1683:6;:36::i;:::-;1729:50;1745:4;:9;;;1736:6;:18;1756:5;:10;;;1768:5;:10;;;1729:6;:50::i;:::-;1796:3;1789:10;;1466:340;;;;;;:::o;231:543::-;552:9;346:164;359:2;352:3;:9;;346:164;;;434:3;428:10;422:4;415:24;474:2;466:10;;;;497:2;490:9;;;;370:2;363:9;;;;346:164;;;584:1;577:3;572:2;:8;564:3;:17;:21;552:33;;653:4;649:9;643:3;637:10;633:26;705:4;698;692:11;688:22;749:7;739:8;736:21;730:4;723:35;604:164;;;;;;:::o;134:711:0:-;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "pragma solidity ^0.4.20;\n/**\n* Metadata contract is upgradeable and returns metadata about Token\n*/\n\nimport \"./helpers/strings.sol\";\n\ncontract Metadata {\n    using strings for *;\n\n    function tokenURI(uint _tokenId) public view returns (string _infoUrl) {\n        string memory base = \"https://domain.com/metadata/\";\n        string memory id = uint2str(_tokenId);\n        return base.toSlice().concat(id.toSlice());\n    }\n    function uint2str(uint i) internal pure returns (string){\n        if (i == 0) return \"0\";\n        uint j = i;\n        uint length;\n        while (j != 0){\n            length++;\n            j /= 10;\n        }\n        bytes memory bstr = new bytes(length);\n        uint k = length - 1;\n        while (i != 0){\n            bstr[k--] = byte(48 + i % 10);\n            i /= 10;\n        }\n        return string(bstr);\n    }\n}",
   "sourcePath": "/Users/billy/code/workshop/contracts/Metadata.sol",
   "ast": {
@@ -54,7 +54,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 105,
-        "sourceUnit": 218,
+        "sourceUnit": 272,
         "src": "101:31:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -79,10 +79,10 @@
               "id": 3,
               "name": "strings",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 217,
+              "referencedDeclaration": 271,
               "src": "164:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_strings_$217",
+                "typeIdentifier": "t_contract$_strings_$271",
                 "typeString": "library strings"
               }
             },
@@ -264,10 +264,10 @@
                           "lValueRequested": false,
                           "memberName": "toSlice",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 171,
+                          "referencedDeclaration": 225,
                           "src": "402:10:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_struct$_slice_$111_memory_ptr_$bound_to$_t_string_memory_ptr_$",
+                            "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_struct$_slice_$165_memory_ptr_$bound_to$_t_string_memory_ptr_$",
                             "typeString": "function (string memory) returns (struct strings.slice memory)"
                           }
                         },
@@ -281,7 +281,7 @@
                         "nodeType": "FunctionCall",
                         "src": "402:12:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_slice_$111_memory_ptr",
+                          "typeIdentifier": "t_struct$_slice_$165_memory_ptr",
                           "typeString": "struct strings.slice memory"
                         }
                       }
@@ -289,7 +289,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_slice_$111_memory_ptr",
+                          "typeIdentifier": "t_struct$_slice_$165_memory_ptr",
                           "typeString": "struct strings.slice memory"
                         }
                       ],
@@ -318,10 +318,10 @@
                           "lValueRequested": false,
                           "memberName": "toSlice",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 171,
+                          "referencedDeclaration": 225,
                           "src": "380:12:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_struct$_slice_$111_memory_ptr_$bound_to$_t_string_memory_ptr_$",
+                            "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_struct$_slice_$165_memory_ptr_$bound_to$_t_string_memory_ptr_$",
                             "typeString": "function (string memory) returns (struct strings.slice memory)"
                           }
                         },
@@ -335,7 +335,7 @@
                         "nodeType": "FunctionCall",
                         "src": "380:14:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_slice_$111_memory_ptr",
+                          "typeIdentifier": "t_struct$_slice_$165_memory_ptr",
                           "typeString": "struct strings.slice memory"
                         }
                       },
@@ -346,10 +346,10 @@
                       "lValueRequested": false,
                       "memberName": "concat",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 216,
+                      "referencedDeclaration": 270,
                       "src": "380:21:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_slice_$111_memory_ptr_$_t_struct$_slice_$111_memory_ptr_$returns$_t_string_memory_ptr_$bound_to$_t_struct$_slice_$111_memory_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_slice_$165_memory_ptr_$_t_struct$_slice_$165_memory_ptr_$returns$_t_string_memory_ptr_$bound_to$_t_struct$_slice_$165_memory_ptr_$",
                         "typeString": "function (struct strings.slice memory,struct strings.slice memory) returns (string memory)"
                       }
                     },
@@ -1442,7 +1442,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 105,
-        "sourceUnit": 218,
+        "sourceUnit": 272,
         "src": "101:31:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1467,10 +1467,10 @@
               "id": 3,
               "name": "strings",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 217,
+              "referencedDeclaration": 271,
               "src": "164:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_strings_$217",
+                "typeIdentifier": "t_contract$_strings_$271",
                 "typeString": "library strings"
               }
             },
@@ -1652,10 +1652,10 @@
                           "lValueRequested": false,
                           "memberName": "toSlice",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 171,
+                          "referencedDeclaration": 225,
                           "src": "402:10:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_struct$_slice_$111_memory_ptr_$bound_to$_t_string_memory_ptr_$",
+                            "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_struct$_slice_$165_memory_ptr_$bound_to$_t_string_memory_ptr_$",
                             "typeString": "function (string memory) returns (struct strings.slice memory)"
                           }
                         },
@@ -1669,7 +1669,7 @@
                         "nodeType": "FunctionCall",
                         "src": "402:12:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_slice_$111_memory_ptr",
+                          "typeIdentifier": "t_struct$_slice_$165_memory_ptr",
                           "typeString": "struct strings.slice memory"
                         }
                       }
@@ -1677,7 +1677,7 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_slice_$111_memory_ptr",
+                          "typeIdentifier": "t_struct$_slice_$165_memory_ptr",
                           "typeString": "struct strings.slice memory"
                         }
                       ],
@@ -1706,10 +1706,10 @@
                           "lValueRequested": false,
                           "memberName": "toSlice",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 171,
+                          "referencedDeclaration": 225,
                           "src": "380:12:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_struct$_slice_$111_memory_ptr_$bound_to$_t_string_memory_ptr_$",
+                            "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$returns$_t_struct$_slice_$165_memory_ptr_$bound_to$_t_string_memory_ptr_$",
                             "typeString": "function (string memory) returns (struct strings.slice memory)"
                           }
                         },
@@ -1723,7 +1723,7 @@
                         "nodeType": "FunctionCall",
                         "src": "380:14:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_slice_$111_memory_ptr",
+                          "typeIdentifier": "t_struct$_slice_$165_memory_ptr",
                           "typeString": "struct strings.slice memory"
                         }
                       },
@@ -1734,10 +1734,10 @@
                       "lValueRequested": false,
                       "memberName": "concat",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 216,
+                      "referencedDeclaration": 270,
                       "src": "380:21:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_slice_$111_memory_ptr_$_t_struct$_slice_$111_memory_ptr_$returns$_t_string_memory_ptr_$bound_to$_t_struct$_slice_$111_memory_ptr_$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_slice_$165_memory_ptr_$_t_struct$_slice_$165_memory_ptr_$returns$_t_string_memory_ptr_$bound_to$_t_struct$_slice_$165_memory_ptr_$",
                         "typeString": "function (struct strings.slice memory,struct strings.slice memory) returns (string memory)"
                       }
                     },
@@ -2809,5 +2809,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-12-14T09:18:24.585Z"
+  "updatedAt": "2018-12-14T09:20:01.130Z"
 }
