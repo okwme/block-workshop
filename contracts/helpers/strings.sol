@@ -3,7 +3,7 @@
  * @author Nick Johnson <arachnid@notdot.net>
  */
 
-pragma solidity ^0.4.20;
+pragma solidity ^0.5.0;
 
 library strings {
     struct slice {
@@ -11,9 +11,9 @@ library strings {
         uint _ptr;
     }
 
-    function memcpy(uint dest, uint src, uint len) private {
+    function memcpy(uint dest, uint src, uint len) private pure {
         // Copy word-length chunks while possible
-        for(; len >= 32; len -= 32) {
+        for (; len >= 32; len -= 32) {
             assembly {
                 mstore(dest, mload(src))
             }
@@ -35,7 +35,7 @@ library strings {
      * @param self The string to make a slice from.
      * @return A newly allocated slice containing the entire string.
      */
-    function toSlice(string memory self) internal returns (slice memory) {
+    function toSlice(string memory self) internal pure returns (slice memory) {
         uint ptr;
         assembly {
             ptr := add(self, 0x20)
@@ -50,10 +50,12 @@ library strings {
      * @param other The second slice to concatenate.
      * @return The concatenation of the two strings.
      */
-    function concat(slice memory self, slice memory other) internal returns (string memory) {
-        var ret = new string(self._len + other._len);
+    function concat(slice memory self, slice memory other) internal pure returns (string memory) {
+        string memory ret = new string(self._len + other._len);
         uint retptr;
-        assembly { retptr := add(ret, 32) }
+        assembly {
+            retptr := add(ret, 32)
+        }
         memcpy(retptr, self._ptr, self._len);
         memcpy(retptr + self._len, other._ptr, other._len);
         return ret;

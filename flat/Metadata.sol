@@ -1,4 +1,4 @@
-pragma solidity ^0.4.20;
+pragma solidity ^0.5.0;
 
 // File: contracts/helpers/strings.sol
 
@@ -7,7 +7,7 @@ pragma solidity ^0.4.20;
  * @author Nick Johnson <arachnid@notdot.net>
  */
 
-pragma solidity ^0.4.20;
+pragma solidity ^0.5.0;
 
 library strings {
     struct slice {

@@ -459,7 +459,7 @@ contract ERC721BasicToken is ERC721Basic {
   }
 }
 
-// File: zeppelin-solidity/contracts/token/ERC721/ERC721Token.sol
+// File: zeppelin-solidity/contracts/token/ERC721/ERC721Full.sol
 
 /**
  * @title Full ERC721 Token
@@ -467,7 +467,7 @@ contract ERC721BasicToken is ERC721Basic {
  * Moreover, it includes approve all functionality using operator terminology
  * @dev see https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md
  */
-contract ERC721Token is ERC721, ERC721BasicToken {
+contract ERC721Full is ERC721, ERC721BasicToken {
   // Token name
   string internal name_;
 
@@ -492,7 +492,7 @@ contract ERC721Token is ERC721, ERC721BasicToken {
   /**
    * @dev Constructor function
    */
-  function ERC721Token(string _name, string _symbol) public {
+  function ERC721Full(string _name, string _symbol) public {
     name_ = _name;
     symbol_ = _symbol;
   }
@@ -690,7 +690,7 @@ contract Ownable {
  * @author Nick Johnson <arachnid@notdot.net>
  */
 
-pragma solidity ^0.4.20;
+pragma solidity ^0.5.0;
 
 library strings {
     struct slice {
@@ -785,10 +785,10 @@ contract Metadata {
 /**
  * The Token contract does this and that...
  */
-contract Token is ERC721Token, Ownable {
+contract Token is ERC721Full, Ownable {
     address metadata;
-    constructor(string name, string symbol, address _metadata) public
-        ERC721Token(name, symbol)
+    constructor(string memory name, string memory symbol, address _metadata) public
+        ERC721Full(name, symbol)
     { 
         metadata = _metadata;
     }

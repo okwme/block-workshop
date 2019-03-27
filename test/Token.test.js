@@ -38,34 +38,35 @@ contract('Token', async function(accounts) {
   })
   describe('Token.sol', function() {
     it('should return metadata uints as strings', async function() {
+
       const URI = 'https://domain.com/metadata/'
 
       let tokenURI_uint = 0
       let tokenURI_result = await token.tokenURI(tokenURI_uint)
       assert(
         URI + tokenURI_uint.toString() === tokenURI_result,
-        'incorrect value "' + tokenURI_result + '" returned'
+        'incorrect value "' + tokenURI_result + '" returned instead of ' +  URI + tokenURI_uint.toString()
       )
 
       tokenURI_uint = 2345
       tokenURI_result = await token.tokenURI(tokenURI_uint)
       assert(
         URI + tokenURI_uint.toString() === tokenURI_result,
-        'incorrect value "' + tokenURI_result + '" returned'
+        'incorrect value "' + tokenURI_result + '" returned instead of ' +  URI + tokenURI_uint.toString()
       )
 
       tokenURI_uint = 23452345
       tokenURI_result = await token.tokenURI(tokenURI_uint)
       assert(
         URI + tokenURI_uint.toString() === tokenURI_result,
-        'incorrect value "' + tokenURI_result + '" returned'
+        'incorrect value "' + tokenURI_result + '" returned instead of ' +  URI + tokenURI_uint.toString()
       )
 
       tokenURI_uint = 134452
       tokenURI_result = await token.tokenURI(tokenURI_uint)
       assert(
         URI + tokenURI_uint.toString() === tokenURI_result,
-        'incorrect value "' + tokenURI_result + '" returned'
+        'incorrect value "' + tokenURI_result + '" returned instead of ' +  URI + tokenURI_uint.toString()
       )
     })
 
