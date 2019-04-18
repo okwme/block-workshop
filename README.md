@@ -15,28 +15,28 @@ The second part of this tutorial will demonstrate how to create a serverless sol
 
 1. ##### Upgradeable Token URI
 
-   1. [Setup Environment](1-01.md)
-   2. [Make ERC-721](1-02.md)
-   3. [Make Metadata](1-03.md)
-   4. [Add Metadata to ERC-721](1-04.md)
-   5. [Create Migrations](1-05.md)
-   6. [Make Tests](1-06.md)
-   7. [Make Migration for Updates](1-07.md)
-   8. [Update ERC-721 and Tests](1-08.md)
-   9. [Deploy](1-09.md)
-   10. [Verify Contracts on Etherescan](1-10.md)
+   1. [Setup Environment](tutorial/1-01.md)
+   2. [Make ERC-721](tutorial/1-02.md)
+   3. [Make Metadata](tutorial/1-03.md)
+   4. [Add Metadata to ERC-721](tutorial/1-04.md)
+   5. [Create Migrations](tutorial/1-05.md)
+   6. [Make Tests](tutorial/1-06.md)
+   7. [Make Migration for Updates](tutorial/1-07.md)
+   8. [Update ERC-721 and Tests](tutorial/1-08.md)
+   9. [Deploy](tutorial/1-09.md)
+   10. [Verify Contracts on Etherescan](tutorial/1-10.md)
 
 2. ##### Serverless Metadata
 
-   1. [Make new netlify project](2-01.md)
-   2. [Install netlify lambda](2-02.md)
-   3. [Add helloworld function](2-03.md)
-   4. [Add metadata](2-04.md)
-   5. [Add proxy](2-05.md)
-   6. [Add opensea](2-06.md)
-   7. [Add rarebits](2-07.md)
-   8. [Re-deploy and mint a token](2-08.md)
+   1. [Make new netlify project](tutorial/2-01.md)
+   2. [Install netlify lambda](tutorial/2-02.md)
+   3. [Add helloworld function](tutorial/2-03.md)
+   4. [Add metadata](tutorial/2-04.md)
+   5. [Add proxy](tutorial/2-05.md)
+   6. [Add opensea](tutorial/2-06.md)
+   7. [Add rarebits](tutorial/2-07.md)
+   8. [Re-deploy and mint a token](tutorial/2-08.md)
 
 -----
 
-[Go to the first step!](1-01.md)
+[Go to the first step!](tutorial/1-01.md)
